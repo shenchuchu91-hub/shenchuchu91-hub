@@ -1,13 +1,13 @@
 <div align="center">
 
-  <!-- 本地高清二次元自托管 Banner（直接由 GitHub 仓库渲染，不依赖任何第三方服务器） -->
+  <!-- 本地高清二次元自托管 Banner -->
   <img src="./assets/banner.svg" width="100%" alt="ShenChuChu Banner"/>
 
   <br><br>
 
   <!-- 动态打字机效果 (Demolab 稳定服务) -->
   <a href="https://github.com/shenchuchu91-hub">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;✨+专注于极致美化、终端极客美学与高效开发;💻+Coding+with+passion%2C+stay+cute+forever~" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;🎮+RTX+5060+满血游戏本+%2B+Gamescope+高刷优化;✨+专注于极致美化、终端极客美学与高效开发;💻+Coding+with+passion%2C+stay+cute+forever~" alt="Typing SVG" />
   </a>
 
   <br>
@@ -17,6 +17,7 @@
     <img src="https://img.shields.io/badge/Arch_Linux-Rice_Master-1793d1?style=for-the-badge&logo=archlinux&logoColor=white" />
     <img src="https://img.shields.io/badge/Window_Manager-Niri_Wayland-FF69B4?style=for-the-badge&logo=wayland&logoColor=white" />
     <img src="https://img.shields.io/badge/Shell-Fish_Shell-008080?style=for-the-badge&logo=gnubash&logoColor=white" />
+    <img src="https://img.shields.io/badge/GPU-RTX_5060_Gaming-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
     <img src="https://img.shields.io/badge/Aesthetic-Anime%20%26%20Loli%20Style-ffb6c1?style=for-the-badge&logo=safari&logoColor=white" />
     <img src="https://img.shields.io/badge/Status-Cooking%20New%20Things-brightgreen?style=for-the-badge" />
   </p>
@@ -32,15 +33,16 @@ user:
   name: "Chuchu (shenchuchu91-hub)"
   role: "Arch Linux Rice 极客 & 开源探索者"
   favorite_theme: "Anime / Pastel Pink / Tokyo Night"
-  current_project: "打磨丝滑的 Nyarch + Niri 卷轴桌面"
+  current_project: "打磨 moe-game-launcher 游戏启动器与 Nyarch 卷轴桌面"
   favorite_quote: "代码可以严谨，但桌面一定要可爱！✨"
 ```
 
-- 💖 **热爱事物**: 二次元、萌系美化、开源项目、探索底层 Linux 机制
+- 💖 **热爱事物**: 二次元、萌系美化、Linux 游戏体验、探索底层系统机制
 - 🐧 **主操作系统**: **Nyarch Linux** (Arch-based Anime Distro)
 - 🪟 **桌面体验**: **Niri** (现代化无限水平滚动 Wayland 窗口管理器) + **Dank Material Shell**
 - 🐚 **交互终端**: **Fish Shell** + **Starship** 提示符 + **Miyu** 助手
-- 🚀 **我的目标**: 打造兼具**极致美学**与**硬核生产力**的数字空间！
+- 🎮 **游戏利器**: **NVIDIA RTX 5060 Prime Offload** + **Gamescope 144Hz** + **MangoHud**
+- 🚀 **我的目标**: 打造兼具**极致美学**与**硬核生产力/游戏力**的数字空间！
 
 ---
 
@@ -52,9 +54,10 @@ user:
 | :--- | :--- |
 | **设备机型** | HP Victus Gaming Laptop 15 |
 | **处理器 (CPU)** | 13th Gen Intel Core i7-13620H (16 Threads @ 4.90 GHz) |
-| **显卡 (GPU)** | NVIDIA GeForce RTX 5060 Laptop + Intel UHD |
+| **独立显卡 (GPU)** | NVIDIA GeForce RTX 5060 Laptop (满血 Prime 直通) |
+| **屏幕刷新率** | 1080p @ 144Hz IPS 高刷屏 |
 | **内存 (RAM)** | 16 GB DDR5 High-Speed |
-| **核心终端神器** | Kitty / Foot / Fastfetch / Btop / Yazi / CAVA |
+| **核心终端神器** | Kitty / Foot / Fastfetch / Btop / Yazi / CAVA / moe-game |
 
 </div>
 
@@ -64,14 +67,15 @@ user:
 
 <div align="center">
 
-#### 🖥️ 系统与桌面环境 (OS & Desktop)
+#### 🖥️ 系统与游戏环境 (OS & Gaming Stack)
 <p>
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA_RTX_5060-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Wayland-005A9C?style=flat-square&logo=wayland&logoColor=white" />
   <img src="https://img.shields.io/badge/Niri_WM-FF69B4?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Fish_Shell-008080?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Starship-DD0B78?style=flat-square&logo=starship&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gamescope-1A9FFF?style=flat-square&logo=steam&logoColor=white" />
+  <img src="https://img.shields.io/badge/MangoHud-FF4500?style=flat-square&logo=steam&logoColor=white" />
 </p>
 
 #### 💻 编程语言与开发工具 (Languages & Tools)
@@ -95,8 +99,9 @@ user:
 
 | 项目名称 | 描述 | 技术栈 | 快捷访问 |
 | :--- | :--- | :--- | :---: |
-| 🌸 **dotfiles** | 我的完整 Nyarch Linux / Niri 桌面配置，支持一键安装与自动备份 | `Fish` / `KDL` / `Wayland` | [传送门 →](https://github.com/shenchuchu91-hub/dotfiles) |
-| ⚡ **arch-linux** | 极速一键部署还原脚本与引导说明 | `Shell` / `Arch` | [传送门 →](https://github.com/shenchuchu91-hub/arch-linux) |
+| 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | Linux 游戏极速启动器 · NVIDIA RTX 5060 独显满血调度 · 144Hz | `Shell` / `NVIDIA` / `Gamescope` | [传送门 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
+| 🌸 **[dotfiles](https://github.com/shenchuchu91-hub/dotfiles)** | 我的完整 Nyarch Linux / Niri 桌面配置，支持一键安装与自动备份 | `Fish` / `KDL` / `Wayland` | [传送门 →](https://github.com/shenchuchu91-hub/dotfiles) |
+| ⚡ **[linux](https://github.com/shenchuchu91-hub/linux)** | 极速一键部署还原脚本与引导说明 | `Shell` / `Arch` | [传送门 →](https://github.com/shenchuchu91-hub/linux) |
 
 </div>
 

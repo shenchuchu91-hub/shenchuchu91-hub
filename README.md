@@ -7,7 +7,7 @@
 
   <!-- 动态打字机效果 (Demolab 稳定服务) -->
   <a href="https://github.com/shenchuchu91-hub">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;🛡️+双系统+Steam+避坑实录+%26+反重力汉化作者;🎮+RTX+5060+满血游戏本+%2B+Gamescope+高刷优化;✨+代码可以严谨，但桌面一定要可爱！~" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;🎯+SCPSL+350%2B小时实战优化+%26+准星对中全解;🛡️+双系统+Steam+避坑实录+%26+反重力汉化作者;✨+代码可以严谨，但桌面一定要可爱！~" alt="Typing SVG" />
   </a>
 
   <br>
@@ -31,13 +31,13 @@
 ```yaml
 user:
   name: "Chuchu (shenchuchu91-hub)"
-  role: "Nyarch Linux 探索者 & 二次元极客"
+  role: "Nyarch Linux 探索者 & SCPSL 极客玩家"
   favorite_theme: "Anime / Pastel Pink / Tokyo Night"
-  current_project: "《双系统避坑宝典》 & 《Nyarch-Guide》 & moe-game-launcher"
+  current_project: "SCPSL 性能调优 · 双系统实战宝典 · moe-game-launcher"
   favorite_quote: "代码可以严谨，但桌面一定要可爱！传承这份热爱与浪漫。✨"
 ```
 
-- 💖 **热爱事物**: 二次元、萌系美化、Linux 游戏体验、探索底层系统机制
+- 💖 **热爱事物**: 二次元、萌系美化、Linux 竞技游戏（SCPSL 350h+）、系统底层机制
 - 🐧 **主操作系统**: **Nyarch Linux** (专为二次元打造的 Arch-based Anime Distro)
 - 🪟 **桌面体验**: **Niri** (现代化无限水平滚动 Wayland 窗口管理器) + **DMS 材质外壳**
 - 🐚 **交互终端**: **Fish Shell** + **Starship** 提示符 + **Miyu** 助手
@@ -73,7 +73,7 @@ user:
   <img src="https://img.shields.io/badge/NVIDIA_RTX_5060-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Wayland-005A9C?style=flat-square&logo=wayland&logoColor=white" />
   <img src="https://img.shields.io/badge/Niri_WM-FF69B4?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/GNOME_Shell-4A86CF?style=flat-square&logo=gnome&logoColor=white" />
+  <img src="https://img.shields.io/badge/SCPSL-350h_Veteran-ff5555?style=flat-square&logo=steam&logoColor=white" />
   <img src="https://img.shields.io/badge/Fish_Shell-008080?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Gamescope-1A9FFF?style=flat-square&logo=steam&logoColor=white" />
 </p>
@@ -98,6 +98,7 @@ user:
 
 | 项目名称 | 描述 | 技术栈 | 快捷访问 |
 | :--- | :--- | :--- | :---: |
+| 🎯 **[SCPSL-ArchLinux-Optimization](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)** | 357h 骨灰老玩家心得：SCPSL 满血多核优化 · 准星无边框对中避坑 | `Shell` / `Unity` / `Gaming` | [传送门 →](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization) |
 | 🛡️ **[Linux-DualBoot-Steam-Guide](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide)** | Win 转 Arch 双系统血泪避坑实录：Steam 跨盘共存 · 反重力汉化补丁 | `Markdown` / `DualBoot` / `Steam` | [传送门 →](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide) |
 | 📖 **[Nyarch-Linux-Guide](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide)** | 萌新入坑与进阶实战记：从 GNOME 深度挖掘到 Niri 卷轴美学 · 热爱传承 | `Markdown` / `Nyarch` / `Guide` | [传送门 →](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide) |
 | 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | Linux 游戏极速启动器 · NVIDIA RTX 5060 满血调度 · Gamescope 144Hz | `Shell` / `NVIDIA` / `Gamescope` | [传送门 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |

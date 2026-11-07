@@ -7,7 +7,7 @@
 
   <!-- 动态打字机效果 (Demolab 稳定服务) -->
   <a href="https://github.com/shenchuchu91-hub">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;🎮+RTX+5060+满血游戏本+%2B+Gamescope+高刷优化;✨+专注于极致美化、终端极客美学与高效开发;💻+Coding+with+passion%2C+stay+cute+forever~" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;📖+《Nyarch-Linux-Guide》萌新实战指南作者;🎮+RTX+5060+满血游戏本+%2B+Gamescope+高刷优化;✨+代码可以严谨，但桌面一定要可爱！~" alt="Typing SVG" />
   </a>
 
   <br>
@@ -31,15 +31,15 @@
 ```yaml
 user:
   name: "Chuchu (shenchuchu91-hub)"
-  role: "Arch Linux Rice 极客 & 开源探索者"
+  role: "Nyarch Linux 探索者 & 二次元极客"
   favorite_theme: "Anime / Pastel Pink / Tokyo Night"
-  current_project: "打磨 moe-game-launcher 游戏启动器与 Nyarch 卷轴桌面"
-  favorite_quote: "代码可以严谨，但桌面一定要可爱！✨"
+  current_project: "《Nyarch-Linux-Guide》指南 & moe-game-launcher 游戏启动器"
+  favorite_quote: "代码可以严谨，但桌面一定要可爱！传承这份热爱与浪漫。✨"
 ```
 
 - 💖 **热爱事物**: 二次元、萌系美化、Linux 游戏体验、探索底层系统机制
-- 🐧 **主操作系统**: **Nyarch Linux** (Arch-based Anime Distro)
-- 🪟 **桌面体验**: **Niri** (现代化无限水平滚动 Wayland 窗口管理器) + **Dank Material Shell**
+- 🐧 **主操作系统**: **Nyarch Linux** (专为二次元打造的 Arch-based Anime Distro)
+- 🪟 **桌面体验**: **Niri** (现代化无限水平滚动 Wayland 窗口管理器) + **DMS 材质外壳**
 - 🐚 **交互终端**: **Fish Shell** + **Starship** 提示符 + **Miyu** 助手
 - 🎮 **游戏利器**: **NVIDIA RTX 5060 Prime Offload** + **Gamescope 144Hz** + **MangoHud**
 - 🚀 **我的目标**: 打造兼具**极致美学**与**硬核生产力/游戏力**的数字空间！
@@ -69,13 +69,13 @@ user:
 
 #### 🖥️ 系统与游戏环境 (OS & Gaming Stack)
 <p>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nyarch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
   <img src="https://img.shields.io/badge/NVIDIA_RTX_5060-76B900?style=flat-square&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Wayland-005A9C?style=flat-square&logo=wayland&logoColor=white" />
   <img src="https://img.shields.io/badge/Niri_WM-FF69B4?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/GNOME_Shell-4A86CF?style=flat-square&logo=gnome&logoColor=white" />
   <img src="https://img.shields.io/badge/Fish_Shell-008080?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Gamescope-1A9FFF?style=flat-square&logo=steam&logoColor=white" />
-  <img src="https://img.shields.io/badge/MangoHud-FF4500?style=flat-square&logo=steam&logoColor=white" />
 </p>
 
 #### 💻 编程语言与开发工具 (Languages & Tools)
@@ -86,7 +86,6 @@ user:
   <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=firefox&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
 </p>
 
 </div>
@@ -99,7 +98,8 @@ user:
 
 | 项目名称 | 描述 | 技术栈 | 快捷访问 |
 | :--- | :--- | :--- | :---: |
-| 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | Linux 游戏极速启动器 · NVIDIA RTX 5060 独显满血调度 · 144Hz | `Shell` / `NVIDIA` / `Gamescope` | [传送门 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
+| 📖 **[Nyarch-Linux-Guide](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide)** | 萌新入坑与进阶实战记：从 GNOME 深度挖掘到 Niri 卷轴美学 · 热爱传承 | `Markdown` / `Nyarch` / `Guide` | [传送门 →](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide) |
+| 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | Linux 游戏极速启动器 · NVIDIA RTX 5060 满血调度 · Gamescope 144Hz | `Shell` / `NVIDIA` / `Gamescope` | [传送门 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
 | 🌸 **[dotfiles](https://github.com/shenchuchu91-hub/dotfiles)** | 我的完整 Nyarch Linux / Niri 桌面配置，支持一键安装与自动备份 | `Fish` / `KDL` / `Wayland` | [传送门 →](https://github.com/shenchuchu91-hub/dotfiles) |
 | ⚡ **[linux](https://github.com/shenchuchu91-hub/linux)** | 极速一键部署还原脚本与引导说明 | `Shell` / `Arch` | [传送门 →](https://github.com/shenchuchu91-hub/linux) |
 

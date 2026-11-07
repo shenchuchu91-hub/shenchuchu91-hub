@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Window_Manager-Niri_Wayland-FF69B4?style=for-the-badge&logo=wayland&logoColor=white" />
     <img src="https://img.shields.io/badge/Shell-Fish_Shell-008080?style=for-the-badge&logo=gnubash&logoColor=white" />
     <img src="https://img.shields.io/badge/Gaming-Vulkan_%26_Gamescope-76B900?style=for-the-badge&logo=steam&logoColor=white" />
-    <img src="https://img.shields.io/badge/Aesthetic-Anime%20%26%20Loli%20Style-ffb6c1?style=for-the-badge&logo=safari&logoColor=white" />
+    <img src="https://img.shields.io/badge/Aesthetic-Anime%20%26%20Moe%20Style-ffb6c1?style=for-the-badge&logo=safari&logoColor=white" />
   </p>
 
 </div>
@@ -70,12 +70,15 @@
 | 📖 **[Nyarch-Linux-Guide](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide)** | 萌新入坑实战指南：GNOME 动态色彩提取调教、Niri 卷轴美学与资源导航 | `Markdown` / `Nyarch` / `Guide` | [传送门 →](https://github.com/shenchuchu91-hub/Nyarch-Linux-Guide) |
 | 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | Linux 游戏极速启动工具：NVIDIA 独显 Prime 调度、Gamescope 144Hz 锁帧 | `Shell` / `NVIDIA` / `Gamescope` | [传送门 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
 | 🌸 **[dotfiles](https://github.com/shenchuchu91-hub/dotfiles)** | 完整的 Nyarch + Niri + Fish 个人桌面环境配置与全自动安全备份安装脚本 | `Fish` / `KDL` / `Wayland` | [传送门 →](https://github.com/shenchuchu91-hub/dotfiles) |
+| 🛡️ **[disclaimer](https://github.com/shenchuchu91-hub/disclaimer)** | 全局开源免责声明与通用安全规范：系统修改、游戏公平竞技、双系统磁盘安全 | `Markdown` / `Policy` / `Security` | [传送门 →](https://github.com/shenchuchu91-hub/disclaimer) |
 
 </div>
 
 ---
 
 <div align="center">
-  <br>
+  <p>
+    <sub>🛡️ <b>使用安全与免责提示</b>：使用本账号下项目前请阅读 <a href="https://github.com/shenchuchu91-hub/disclaimer">全局免责声明与安全守则 (Disclaimer)</a></sub>
+  </p>
   <sub>🌸 Designed with love for Arch Linux & Anime Aesthetic · <b>shenchuchu91-hub</b> 🌸</sub>
 </div>

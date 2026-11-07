@@ -1,16 +1,18 @@
 <div align="center">
 
-  <!-- 二次元极客主页动态 Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,12&height=220&section=header&text=✨%20Welcome%20to%20My%20Space%20✨&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Arch%20Linux%20Rice%20Enthusiast%20%7C%20Anime%20%26%20Code%20Lover%20🌸&descAlignY=62&descAlign=50" width="100%"/>
+  <!-- 本地高清二次元自托管 Banner（直接由 GitHub 仓库渲染，不依赖任何第三方服务器） -->
+  <img src="./assets/banner.svg" width="100%" alt="ShenChuChu Banner"/>
 
-  <!-- 动态打字机效果 -->
+  <br><br>
+
+  <!-- 动态打字机效果 (Demolab 稳定服务) -->
   <a href="https://github.com/shenchuchu91-hub">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=600&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;✨+专注于极致美化、终端极客美学与高效开发;💻+Coding+with+passion%2C+stay+cute+forever~" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=F778BA&center=true&vCenter=true&width=620&lines=🌸+喵呜~+欢迎来到我的+GitHub+空间！;🐧+Nyarch+Linux+%2B+Niri+Wayland+深度折腾玩家;✨+专注于极致美化、终端极客美学与高效开发;💻+Coding+with+passion%2C+stay+cute+forever~" alt="Typing SVG" />
   </a>
 
   <br>
 
-  <!-- 萌系二次元徽章栏 -->
+  <!-- 萌系二次元徽章栏 (Shields.io 稳定 CDN) -->
   <p align="center">
     <img src="https://img.shields.io/badge/Arch_Linux-Rice_Master-1793d1?style=for-the-badge&logo=archlinux&logoColor=white" />
     <img src="https://img.shields.io/badge/Window_Manager-Niri_Wayland-FF69B4?style=for-the-badge&logo=wayland&logoColor=white" />
@@ -27,7 +29,7 @@
 
 ```yaml
 user:
-  name: "Chuchu"
+  name: "Chuchu (shenchuchu91-hub)"
   role: "Arch Linux Rice 极客 & 开源探索者"
   favorite_theme: "Anime / Pastel Pink / Tokyo Night"
   current_project: "打磨丝滑的 Nyarch + Niri 卷轴桌面"
@@ -42,7 +44,7 @@ user:
 
 ---
 
-### 💻 极客工作台与硬件环境 (My Rig & Specs)
+### 💻 极客工作台与硬件实机规格 (My Rig & Specs)
 
 <div align="center">
 
@@ -52,7 +54,7 @@ user:
 | **处理器 (CPU)** | 13th Gen Intel Core i7-13620H (16 Threads @ 4.90 GHz) |
 | **显卡 (GPU)** | NVIDIA GeForce RTX 5060 Laptop + Intel UHD |
 | **内存 (RAM)** | 16 GB DDR5 High-Speed |
-| **终端神器** | Kitty / Foot / Fastfetch / Btop / Yazi / CAVA |
+| **核心终端神器** | Kitty / Foot / Fastfetch / Btop / Yazi / CAVA |
 
 </div>
 
@@ -87,41 +89,20 @@ user:
 
 ---
 
-### 🏆 极客成就与贡献奖杯 (GitHub Trophies)
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shenchuchu91-hub&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" />
-</div>
-
----
-
-### 📊 GitHub 动态统计数据 (Stats & Streak)
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shenchuchu91-hub&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" height="175" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shenchuchu91-hub&theme=tokyonight&border_radius=10&hide_border=false" height="175" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenchuchu91-hub&layout=compact&theme=tokyonight&border_radius=10&hide_border=false" height="150" />
-</div>
-
----
-
 ### 🌟 核心开源项目推荐 (Featured Projects)
 
 <div align="center">
 
-| 项目 | 描述 | 技术栈 |
-| :--- | :--- | :--- |
-| 🌸 **[dotfiles](https://github.com/shenchuchu91-hub/dotfiles)** | 我的完整 Nyarch Linux / Niri 桌面配置，支持一键安装与自动备份 | `Fish` / `KDL` / `Shell` / `Wayland` |
+| 项目名称 | 描述 | 技术栈 | 快捷访问 |
+| :--- | :--- | :--- | :---: |
+| 🌸 **dotfiles** | 我的完整 Nyarch Linux / Niri 桌面配置，支持一键安装与自动备份 | `Fish` / `KDL` / `Wayland` | [传送门 →](https://github.com/shenchuchu91-hub/dotfiles) |
+| ⚡ **arch-linux** | 极速一键部署还原脚本与引导说明 | `Shell` / `Arch` | [传送门 →](https://github.com/shenchuchu91-hub/arch-linux) |
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" width="100%"/>
   <br>
-  <sub>✨ Designed with love for Arch Linux & Anime Aesthetic ✨</sub>
+  <sub>🌸 Designed with love for Arch Linux & Anime Aesthetic · <b>shenchuchu91-hub</b> 🌸</sub>
 </div>

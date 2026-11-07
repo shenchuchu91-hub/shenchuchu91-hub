@@ -1,0 +1,134 @@
+<svg fill="none" viewBox="0 0 850 260" width="100%" height="260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 主背景渐变 (Tokyo Night / Catppuccin Mocha 风格) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="50%" stop-color="#181825"/>
+      <stop offset="100%" stop-color="#11111b"/>
+    </linearGradient>
+
+    <!-- 萌系紫粉霓虹渐变 -->
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9a9e"/>
+      <stop offset="50%" stop-color="#fecfef"/>
+      <stop offset="100%" stop-color="#a1c4fd"/>
+    </linearGradient>
+
+    <!-- 波浪光晕渐变 -->
+    <linearGradient id="waveGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f38ba8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#cba6f7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#89b4fa" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- 边框发光渐变 -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f38ba8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#cba6f7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#89dceb" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- 阴影滤镜 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-weight: 800;
+      font-size: 34px;
+      fill: url(#neonPink);
+      filter: drop-shadow(0px 2px 8px rgba(243, 139, 168, 0.4));
+    }
+    .subtitle {
+      font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      fill: #cdd6f4;
+      letter-spacing: 1px;
+    }
+    .tag {
+      font-family: "Fira Code", monospace;
+      font-size: 12px;
+      fill: #fab387;
+    }
+    .sparkle {
+      fill: #f9e2af;
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+  </style>
+
+  <!-- 卡片圆角外框 -->
+  <rect x="2" y="2" width="846" height="256" rx="20" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2"/>
+
+  <!-- 背景二次元流动波浪 -->
+  <path d="M2,180 C180,220 320,130 500,190 C680,240 760,170 848,200 L848,256 C848,256 848,256 846,258 L2,258 Z" fill="url(#waveGrad)"/>
+  <path d="M2,210 C150,170 350,240 540,180 C700,140 780,230 848,190 L848,256 C848,256 848,256 846,258 L2,258 Z" fill="url(#waveGrad)" opacity="0.6"/>
+
+  <!-- 装饰二次元星光与符号 -->
+  <text x="60" y="55" class="sparkle" font-size="20">✦</text>
+  <text x="760" y="70" class="sparkle" font-size="24">✦</text>
+  <text x="130" y="220" class="sparkle" font-size="16">✧</text>
+  <text x="720" y="200" class="sparkle" font-size="18">✧</text>
+  <text x="420" y="40" class="sparkle" font-size="14">★</text>
+  <text x="800" y="140" class="sparkle" font-size="14">🌸</text>
+  <text x="40" y="130" class="sparkle" font-size="14">🌸</text>
+
+  <!-- 左侧萌系猫耳 / 二次元徽标剪影 -->
+  <g transform="translate(55, 75)">
+    <!-- 萌系图标背景光圈 -->
+    <circle cx="45" cy="45" r="42" fill="#313244" stroke="#cba6f7" stroke-width="2"/>
+    <!-- 萌萌猫猫头 / 萝莉动漫吉祥物造型 -->
+    <path d="M22,38 L16,14 C26,18 36,26 45,26 C54,26 64,18 74,14 L68,38 C75,44 78,52 78,60 C78,74 63,82 45,82 C27,82 12,74 12,60 C12,52 15,44 22,38 Z" fill="#f38ba8"/>
+    <!-- 猫耳内侧粉色 -->
+    <path d="M23,32 L20,20 C26,23 31,27 34,28 Z" fill="#f5c2e7"/>
+    <path d="M67,32 L70,20 C64,23 59,27 56,28 Z" fill="#f5c2e7"/>
+    <!-- 眼睛 -->
+    <ellipse cx="32" cy="52" rx="4" ry="6" fill="#11111b"/>
+    <ellipse cx="58" cy="52" rx="4" ry="6" fill="#11111b"/>
+    <circle cx="34" cy="50" r="1.5" fill="#ffffff"/>
+    <circle cx="60" cy="50" r="1.5" fill="#ffffff"/>
+    <!-- 害羞腮红 -->
+    <ellipse cx="24" cy="59" rx="5" ry="2.5" fill="#eba0ac" opacity="0.8"/>
+    <ellipse cx="66" cy="59" rx="5" ry="2.5" fill="#eba0ac" opacity="0.8"/>
+    <!-- 萌系小嘴猫唇 -->
+    <path d="M41,61 Q45,64 45,61 Q45,64 49,61" stroke="#11111b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 居中标题与文案 -->
+  <g transform="translate(180, 0)">
+    <!-- 主标题 -->
+    <text x="0" y="95" class="title">✨ ShenChuChu's Wonderland ✨</text>
+    
+    <!-- 副标题 -->
+    <text x="0" y="138" class="subtitle">🌸 Nyarch Linux Rice Master · Niri Wayland · Anime Aesthetic 🌸</text>
+    
+    <!-- 胶囊小标签 -->
+    <g transform="translate(0, 165)">
+      <!-- 标签 1 -->
+      <rect x="0" y="0" width="110" height="26" rx="13" fill="#313244" stroke="#89b4fa" stroke-width="1"/>
+      <text x="55" y="17" text-anchor="middle" fill="#89b4fa" font-family="sans-serif" font-size="12" font-weight="bold">🐧 Nyarch Linux</text>
+
+      <!-- 标签 2 -->
+      <rect x="120" y="0" width="105" height="26" rx="13" fill="#313244" stroke="#f38ba8" stroke-width="1"/>
+      <text x="172" y="17" text-anchor="middle" fill="#f38ba8" font-family="sans-serif" font-size="12" font-weight="bold">🌸 Niri Wayland</text>
+
+      <!-- 标签 3 -->
+      <rect x="235" y="0" width="95" height="26" rx="13" fill="#313244" stroke="#a6e3a1" stroke-width="1"/>
+      <text x="282" y="17" text-anchor="middle" fill="#a6e3a1" font-family="sans-serif" font-size="12" font-weight="bold">⚡ Fish Shell</text>
+
+      <!-- 标签 4 -->
+      <rect x="340" y="0" width="115" height="26" rx="13" fill="#313244" stroke="#fab387" stroke-width="1"/>
+      <text x="397" y="17" text-anchor="middle" fill="#fab387" font-family="sans-serif" font-size="12" font-weight="bold">💖 Anime Lover</text>
+    </g>
+
+    <text x="0" y="222" class="tag">&gt; echo &quot;代码可以严谨，但桌面一定要可爱！~&quot;</text>
+  </g>
+</svg>

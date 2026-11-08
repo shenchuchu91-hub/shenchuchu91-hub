@@ -55,6 +55,8 @@
 ### ⚡ 当前状态与焦点 (Current Focus)
 
 - 🔭 **主力维护工程**：
+  - [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)：纯正 upstream Arch Linux 工程架构指南与无损部署套件；
+  - [`Linux-Desktop-Matrix`](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)：对标全平台 Linux (Arch / NixOS / Fedora 等) 的桌面管理与平铺架构交互式全景矩阵；
   - [`moe-game-launcher`](https://github.com/shenchuchu91-hub/moe-game-launcher)：面向 Linux 混合显卡笔记本的无损调度与诊断工具箱；
   - [`SCPSL-ArchLinux-Optimization`](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)：基于老玩家实践整理的 Unity 线程优化与 Wayland 准星校准方案；
 - 🛠️ **正在调校演进**：持续优化 Niri 卷轴平铺窗口吸附动画与 Fish Shell 自动化配置流；
@@ -69,6 +71,7 @@
 | 项目名称 | 解决的核心问题 | 适用人群 / 场景 | 核心技术栈 | 快速入口 |
 | :--- | :--- | :--- | :--- | :---: |
 | 🏛️ **[Arch-Linux-Guide](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)** | 纯正 Arch Linux 完整实践指南：从裸机安装、硬件驱动到 Niri 桌面工程与自动部署 | Arch 开发者 / 纯血 Linux 玩家 | `Arch Linux` · `System Architecture` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Linux-Guide) |
+| 🌸 **[Linux-Desktop-Matrix](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)** | 跨发行版桌面环境与平铺架构全景矩阵：Niri (Shorin/Vanilla)、DMS、Hyprland、GNOME 终端交互部署套件 | 全 Linux 用户 / NixOS / 探索者 | `Multi-Distro` · `NixOS Flake` · `Wayland` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix) |
 | 🎯 **[SCPSL-ArchLinux-Optimization](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)** | Unity 引擎多核负载不均、视口缩放导致的准星脱节与掉帧 | SCPSL 玩家 / Unity Linux 环境 | `Unity` · `Engine Config` | [立即查看 →](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization) |
 | 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | 混合显卡笔记本独显委派、Gamescope 144Hz 锁帧与环境检测 | Linux 游戏本玩家 / Steam 玩家 | `Prime Offload` · `Gamescope` | [立即查看 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
 | 🛡️ **[Linux-DualBoot-Steam-Guide](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide)** | 双系统 8 小时时差、NTFS 分区只读锁死与 Proton 启动排查 | Windows + Arch 双系统用户 | `DualBoot` · `NTFS` · `Proton` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide) |
@@ -105,6 +108,7 @@
 根据你的需求，点击即可直达对应的核心仓库：
 
 - 🏛️ **查阅纯正 Arch Linux 完整系统安装与桌面工程体系？** 👉 前往 [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)
+- 🌸 **探索跨发行版（Arch / NixOS / Fedora）桌面与平铺全景矩阵？** 👉 前往 [`Linux-Desktop-Matrix`](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)
 - 🪟 **需要一套完整的 Niri 卷轴式桌面配置？** 👉 前往 [`dotfiles`](https://github.com/shenchuchu91-hub/dotfiles)
 - 🎮 **双显卡笔记本运行游戏需要指定独显与锁帧？** 👉 前往 [`moe-game-launcher`](https://github.com/shenchuchu91-hub/moe-game-launcher)
 - 🎯 **运行 SCPSL 遇到准星偏移或帧率不稳？** 👉 前往 [`SCPSL-ArchLinux-Optimization`](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)

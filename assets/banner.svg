@@ -108,7 +108,7 @@
     <text x="0" y="95" class="title">✨ ShenChuChu's Wonderland ✨</text>
     
     <!-- 副标题 -->
-    <text x="0" y="138" class="subtitle">🌸 Nyarch Linux Rice Master · Niri Wayland · Anime Aesthetic 🌸</text>
+    <text x="0" y="138" class="subtitle">🌸 Nyarch Linux Rice &amp; Config · Niri Wayland · Anime Aesthetic 🌸</text>
     
     <!-- 胶囊小标签 -->
     <g transform="translate(0, 165)">

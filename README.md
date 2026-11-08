@@ -5,9 +5,9 @@
 
   <br><br>
 
-  <!-- 动态打字机效果 -->
+  <!-- 本地自托管高可用动态打字机效果 (彻底杜绝第三方加载失效) -->
   <a href="https://github.com/shenchuchu91-hub">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=F778BA&center=true&vCenter=true&width=650&lines=🌸+欢迎来到楚楚+(shenchuchu91-hub)+的技术主页;🐧+聚焦+Arch+%2F+Nyarch+Linux+桌面工程与+Niri+Wayland+架构;🎮+专注于+Linux+游戏运行时调优、显卡调度与环境诊断;📐+代码当严谨，系统亦优雅，专注清晰可复现的开源实践。" alt="Typing SVG" />
+    <img src="./assets/typing.svg" width="650" alt="Typing SVG" />
   </a>
 
   <br>
@@ -68,6 +68,7 @@
 
 | 项目名称 | 解决的核心问题 | 适用人群 / 场景 | 核心技术栈 | 快速入口 |
 | :--- | :--- | :--- | :--- | :---: |
+| 🏛️ **[Arch-Linux-Guide](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)** | 纯正 Arch Linux 完整实践指南：从裸机安装、硬件驱动到 Niri 桌面工程与自动部署 | Arch 开发者 / 纯血 Linux 玩家 | `Arch Linux` · `System Architecture` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Linux-Guide) |
 | 🎯 **[SCPSL-ArchLinux-Optimization](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)** | Unity 引擎多核负载不均、视口缩放导致的准星脱节与掉帧 | SCPSL 玩家 / Unity Linux 环境 | `Unity` · `Engine Config` | [立即查看 →](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization) |
 | 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | 混合显卡笔记本独显委派、Gamescope 144Hz 锁帧与环境检测 | Linux 游戏本玩家 / Steam 玩家 | `Prime Offload` · `Gamescope` | [立即查看 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
 | 🛡️ **[Linux-DualBoot-Steam-Guide](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide)** | 双系统 8 小时时差、NTFS 分区只读锁死与 Proton 启动排查 | Windows + Arch 双系统用户 | `DualBoot` · `NTFS` · `Proton` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide) |
@@ -103,6 +104,7 @@
 
 根据你的需求，点击即可直达对应的核心仓库：
 
+- 🏛️ **查阅纯正 Arch Linux 完整系统安装与桌面工程体系？** 👉 前往 [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)
 - 🪟 **需要一套完整的 Niri 卷轴式桌面配置？** 👉 前往 [`dotfiles`](https://github.com/shenchuchu91-hub/dotfiles)
 - 🎮 **双显卡笔记本运行游戏需要指定独显与锁帧？** 👉 前往 [`moe-game-launcher`](https://github.com/shenchuchu91-hub/moe-game-launcher)
 - 🎯 **运行 SCPSL 遇到准星偏移或帧率不稳？** 👉 前往 [`SCPSL-ArchLinux-Optimization`](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)

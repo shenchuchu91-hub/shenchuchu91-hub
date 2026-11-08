@@ -73,6 +73,23 @@
       stroke-dasharray: 2 4;
       opacity: 0.45;
     }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    @keyframes floatSakura {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-6px) rotate(12deg); }
+    }
+    @keyframes emblemBreath {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.025); }
+    }
+    .anim-star-1 { animation: pulseGlow 2.4s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
+    .anim-star-2 { animation: pulseGlow 3.5s infinite ease-in-out 1.2s; transform-box: fill-box; transform-origin: center; }
+    .anim-sakura-1 { animation: floatSakura 4.5s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
+    .anim-sakura-2 { animation: floatSakura 5s infinite ease-in-out 2s; transform-box: fill-box; transform-origin: center; }
+    .anim-emblem { animation: emblemBreath 5s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
   </style>
 
   <!-- 卡片圆角主体与高精度边框 -->
@@ -98,14 +115,15 @@
     <text x="745" y="246">KERNEL: 7.x-ZEN</text>
   </g>
 
-  <!-- 典雅二次元樱花瓣与星芒点缀 (克制而精致) -->
-  <text x="195" y="52" fill="#f9e2af" font-size="14" opacity="0.85">✦</text>
-  <text x="690" y="55" fill="#f9e2af" font-size="14" opacity="0.85">✦</text>
-  <text x="660" y="228" fill="#f38ba8" font-size="15" opacity="0.75">🌸</text>
-  <text x="175" y="228" fill="#cba6f7" font-size="13" opacity="0.75">✧</text>
+  <!-- 典雅二次元樱花瓣与星芒点缀 (带丝滑呼吸与漂浮动画) -->
+  <text x="195" y="52" fill="#f9e2af" font-size="14" class="anim-star-1">✦</text>
+  <text x="690" y="55" fill="#f9e2af" font-size="14" class="anim-star-2">✦</text>
+  <text x="660" y="228" fill="#f38ba8" font-size="15" class="anim-sakura-1">🌸</text>
+  <text x="175" y="228" fill="#cba6f7" font-size="13" class="anim-star-2">✧</text>
+  <text x="800" y="140" fill="#f5c2e7" font-size="14" class="anim-sakura-2">🌸</text>
 
   <!-- 左侧：二次元萌系猫耳与严谨几何勋章 (Seal of Craftsmanship) -->
-  <g transform="translate(48, 70)">
+  <g transform="translate(48, 70)" class="anim-emblem">
     <!-- 外层精密六边形 / 圆环 -->
     <circle cx="45" cy="45" r="44" fill="#181825" stroke="#313244" stroke-width="1.2"/>
     <circle cx="45" cy="45" r="41" stroke="#cba6f7" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>

@@ -72,6 +72,7 @@
 | :--- | :--- | :--- | :--- | :---: |
 | 🏛️ **[Arch-Linux-Guide](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)** | 纯正 Arch Linux 完整实践指南：从裸机安装、硬件驱动到 Niri 桌面工程与自动部署 | Arch 开发者 / 纯血 Linux 玩家 | `Arch Linux` · `System Architecture` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Linux-Guide) |
 | 🌸 **[Linux-Desktop-Matrix](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)** | 跨发行版桌面环境与平铺架构全景矩阵：Niri (Shorin/Vanilla)、DMS、Hyprland、GNOME 终端交互部署套件 | 全 Linux 用户 / NixOS / 探索者 | `Multi-Distro` · `NixOS Flake` · `Wayland` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix) |
+| 🚑 **[Arch-Disaster-Recovery](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery)** | 换电脑 · 系统滚挂 · 快照回滚 · 跨发行版迁移终极自救与 15 分钟整机复原 SOP | 备用自救 / 换机重建 / 故障排查 | `Disaster Recovery` · `Chroot` · `SOP` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery) |
 | 🎯 **[SCPSL-ArchLinux-Optimization](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)** | Unity 引擎多核负载不均、视口缩放导致的准星脱节与掉帧 | SCPSL 玩家 / Unity Linux 环境 | `Unity` · `Engine Config` | [立即查看 →](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization) |
 | 🎮 **[moe-game-launcher](https://github.com/shenchuchu91-hub/moe-game-launcher)** | 混合显卡笔记本独显委派、Gamescope 144Hz 锁帧与环境检测 | Linux 游戏本玩家 / Steam 玩家 | `Prime Offload` · `Gamescope` | [立即查看 →](https://github.com/shenchuchu91-hub/moe-game-launcher) |
 | 🛡️ **[Linux-DualBoot-Steam-Guide](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide)** | 双系统 8 小时时差、NTFS 分区只读锁死与 Proton 启动排查 | Windows + Arch 双系统用户 | `DualBoot` · `NTFS` · `Proton` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-DualBoot-Steam-Guide) |
@@ -109,6 +110,7 @@
 
 - 🏛️ **查阅纯正 Arch Linux 完整系统安装与桌面工程体系？** 👉 前往 [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)
 - 🌸 **探索跨发行版（Arch / NixOS / Fedora）桌面与平铺全景矩阵？** 👉 前往 [`Linux-Desktop-Matrix`](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)
+- 🚑 **遇到系统滚挂、黑屏救砖、快照回滚或换新电脑？** 👉 前往 [`Arch-Disaster-Recovery`](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery)
 - 🪟 **需要一套完整的 Niri 卷轴式桌面配置？** 👉 前往 [`dotfiles`](https://github.com/shenchuchu91-hub/dotfiles)
 - 🎮 **双显卡笔记本运行游戏需要指定独显与锁帧？** 👉 前往 [`moe-game-launcher`](https://github.com/shenchuchu91-hub/moe-game-launcher)
 - 🎯 **运行 SCPSL 遇到准星偏移或帧率不稳？** 👉 前往 [`SCPSL-ArchLinux-Optimization`](https://github.com/shenchuchu91-hub/SCPSL-ArchLinux-Optimization)

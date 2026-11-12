@@ -47,14 +47,30 @@
 | **🖥️ 桌面环境与平铺架构** | `Nyarch Linux` · `Niri WM` · `Wayland` · `Fish` | 卷轴式无限视口排列、软件窗口智能浮动规则 (`shorin-windowrules.kdl`)、Material You 动态色彩提取 |
 | **🎮 图形栈与游戏运行调度** | `Vulkan 1.3` · `NVIDIA Prime` · `Gamescope` · `MangoHud` | 混合显卡双 GPU 渲染分流、1080p @ 144Hz 锁帧与 FSR 超分、Unity 引擎底层多核线程分配 |
 | **🛠️ 跨系统兼容与引导排错** | `GRUB / ESP` · `NTFS-3G` · `Proton Compatdata` | Windows + Arch 双系统时间同步 (RTC/UTC)、NTFS 符号链接崩溃排查、Google Antigravity 中文化支持 |
+| **🐍 后端与网络编程** | `C` · `POSIX Socket` · `Python` · `http.server` | 从套接字手写 HTTP 响应，到本机 API；监听默认锁在 `127.0.0.1`，密钥不进仓库 |
 
 </div>
+
+---
+
+### 📘 编程学习 (Learning to Program)
+
+网络专业在读，后端练习单独放在 [`backend-learning`](https://github.com/shenchuchu91-hub/backend-learning)。笔记只保留自己跑通、还能讲清楚的部分。
+
+| 阶段 | 在验证的事 | 位置 |
+| :--- | :--- | :--- |
+| C 套接字 | `bind` / `listen` / `accept` 之后，请求只是一段文本，响应要自己按 HTTP 写回去 | `c_backend/server.c`，`127.0.0.1:8080` |
+| Python 接口 | 标准库区分 `GET /health` 与 `POST /api/chat`；跨端口访问先过 CORS | `python_backend/app.py` |
+| 密钥 | 没配 Key 时接口说明原因；真实 Key 不提交 | `.env` 忽略，仓库仅保留 `.env.example` |
+
+记录：[从套接字到接口](https://github.com/shenchuchu91-hub/backend-learning/blob/main/notes/01-从套接字到接口.md)
 
 ---
 
 ### ⚡ 当前状态与焦点 (Current Focus)
 
 - 🔭 **主力维护工程**：
+  - [`backend-learning`](https://github.com/shenchuchu91-hub/backend-learning)：网络编程练习，从 C 套接字到 Python 本机 API；
   - [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)：纯正 upstream Arch Linux 工程架构指南与无损部署套件；
   - [`Linux-Desktop-Matrix`](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)：对标全平台 Linux (Arch / NixOS / Fedora 等) 的桌面管理与平铺架构交互式全景矩阵；
   - [`moe-game-launcher`](https://github.com/shenchuchu91-hub/moe-game-launcher)：面向 Linux 混合显卡笔记本的无损调度与诊断工具箱；
@@ -70,6 +86,7 @@
 
 | 项目名称 | 解决的核心问题 | 适用人群 / 场景 | 核心技术栈 | 快速入口 |
 | :--- | :--- | :--- | :--- | :---: |
+| 🐍 **[backend-learning](https://github.com/shenchuchu91-hub/backend-learning)** | 把网络基础收成能跑的后端：C 套接字、Python 本机 API、模型转发 | 自己的编程学习记录 | `C` · `Python` · `Socket` | [立即查看 →](https://github.com/shenchuchu91-hub/backend-learning) |
 | 🏛️ **[Arch-Linux-Guide](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)** | 纯正 Arch Linux 完整实践指南：从裸机安装、硬件驱动到 Niri 桌面工程与自动部署 | Arch 开发者 / 纯血 Linux 玩家 | `Arch Linux` · `System Architecture` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Linux-Guide) |
 | 🌸 **[Linux-Desktop-Matrix](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)** | 跨发行版桌面环境与平铺架构全景矩阵：Niri (Shorin/Vanilla)、DMS、Hyprland、GNOME 终端交互部署套件 | 全 Linux 用户 / NixOS / 探索者 | `Multi-Distro` · `NixOS Flake` · `Wayland` | [立即查看 →](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix) |
 | 🚑 **[Arch-Disaster-Recovery](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery)** | 换电脑 · 系统滚挂 · 快照回滚 · 跨发行版迁移终极自救与 15 分钟整机复原 SOP | 备用自救 / 换机重建 / 故障排查 | `Disaster Recovery` · `Chroot` · `SOP` | [立即查看 →](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery) |
@@ -108,6 +125,7 @@
 
 根据你的需求，点击即可直达对应的核心仓库：
 
+- 🐍 **看编程学习记录，从套接字写到本机 API？** 👉 前往 [`backend-learning`](https://github.com/shenchuchu91-hub/backend-learning)
 - 🏛️ **查阅纯正 Arch Linux 完整系统安装与桌面工程体系？** 👉 前往 [`Arch-Linux-Guide`](https://github.com/shenchuchu91-hub/Arch-Linux-Guide)
 - 🌸 **探索跨发行版（Arch / NixOS / Fedora）桌面与平铺全景矩阵？** 👉 前往 [`Linux-Desktop-Matrix`](https://github.com/shenchuchu91-hub/Linux-Desktop-Matrix)
 - 🚑 **遇到系统滚挂、黑屏救砖、快照回滚或换新电脑？** 👉 前往 [`Arch-Disaster-Recovery`](https://github.com/shenchuchu91-hub/Arch-Disaster-Recovery)

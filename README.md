@@ -1,34 +1,34 @@
 <div align="center">
 
-  <img src="./assets/banner.svg" width="100%" alt="TUYU Kurabe Rarekko Aesthetic Banner"/>
+  <img src="./assets/banner.svg" width="100%" alt="Shenchuchu Monochrome Banner"/>
 
   <br>
 
   <p align="center">
-    <i>「あの子より劣ってるのは 言われなくても解ってるよ だから比べないで 私をほっといて」</i>
+    <i>"In absolute isolation, there is only signal and cold rain."</i>
     <br>
-    <sub>— ツユ · 『くらべられっ子』</sub>
+    <sub>外界的喧嚣太吵，这里只有冰冷的代码与长夜。</sub>
   </p>
 
 </div>
 
 ---
 
-### // 孤立宣言 (Isolation & Philosophy)
+### // 沉寂与孤立 (Silence & Isolation)
 
-不参与浮躁的横向攀比，不在喧嚣的社区里证明自己。
+拒绝一切轻浮的表面指标与虚妄的人际攀比。
 
-在漫无止境的冷雨与绝对的寂静中，远离虚妄的表面指标，只把时间交给纯粹的底层系统、内存字节与网络数据流。代码不撒谎，编译器不会偏袒，系统只对严谨的逻辑生效。
+在深不见底的寂静与连绵阴雨中，闭合所有冗余端口，把全部精力留给底层内核、内存分配、网络套接字与无损架构。现实世界也许混沌，但编译器的返回码只有 `0` 与非 `0`。
 
 ```text
 status    ::  isolated in silent rain / building low-level foundations
-aesthetic ::  tuyu (ツユ) · くらべられっ子 · desaturated indigo · cold monochrome
-doctrine  ::  less noise, zero vanity, deterministic logic, verifiable systems
+aesthetic ::  monochrome void · heavy rain · somber minimalist · dead silence
+doctrine  ::  zero vanity · deterministic logic · verifiable systems · cold focus
 ```
 
 ---
 
-### // 工程矩阵与实践仓库 (Work & Repositories)
+### // 系统工程矩阵 (Engineering Matrix)
 
 | 仓库名称 / Repository | 架构范畴 / Scope | 技术核心与解决问题 / Core Value |
 | :--- | :--- | :--- |
@@ -45,10 +45,10 @@ doctrine  ::  less noise, zero vanity, deterministic logic, verifiable systems
 
 ---
 
-### // 技术栈与底层工具 (Stack & Foundations)
+### // 核心技术基石 (Stack & Foundations)
 
 ```text
- 操作系统架构  ::  Arch Linux (Nyarch) · Linux Kernel 7.x · Niri Wayland Compositor
+ 操作系统架构  ::  Arch Linux · Linux Kernel 7.x · Niri Wayland Compositor
  核心系统语言  ::  C99 (POSIX Sockets / Memory / Systems) · Python (API & Scripting)
  终端与交互    ::  Fish 4.x · Starship · Kitty / Foot · Yazi · Neovim
  网络与协议    ::  TCP/IP · Raw Socket (bind / listen / accept) · HTTP 1.1 · CORS
@@ -58,25 +58,25 @@ doctrine  ::  less noise, zero vanity, deterministic logic, verifiable systems
 
 ---
 
-### // 学习进阶轨迹 (Roadmap & Principles)
+### // 演进轨迹 (Evolution Roadmap)
 
-网络专业在读。坚持“只要还能讲明白、只要实机能跑通，就记录下来；不明白的不写，浮夸的不要”。
+网络专业在读。坚持“只记录跑通并能推导清楚的底层细节，不掺杂任何浮躁水分”。
 
 ```text
- [阶段一 · 底层感知]
+ [01 · 底层感知]
   └─ C 语言网络通信与系统调用 (Socket -> Bind -> Listen -> Accept -> 手写 HTTP 响应流)
- [阶段二 · 业务与网关]
+ [02 · 业务与网关]
   └─ Python 原生无依赖接口调度 (标准库 http.server，CORS 跨域，本地 AI 网关)
- [阶段三 · 系统与容灾]
+ [03 · 系统与容灾]
   └─ 操作系统故障自救与状态还原 (Chroot 修复，Btrfs 快照，声明式环境)
- [阶段四 · 安全底线]
-  └─ 凭据绝对隔离 (.env 永远不进版本库，仅保留 .env.example 占位，消除信息恐慌)
+ [04 · 凭据隔离]
+  └─ 敏感信息绝对隔离 (.env 永远不进版本库，仅保留 .env.example 占位，杜绝泄露)
 ```
 
 ---
 
 <div align="center">
 
-<sub>雨声未停 · 屏幕长亮 · 保持冷清 · 拒绝比较</sub>
+<sub>雨声未停 · 屏幕长亮 · 保持冷清 · 独行其道</sub>
 
 </div>
